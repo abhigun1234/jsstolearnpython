@@ -1,0 +1,6 @@
+f1=open('a.jpg','rb')
+f2=open('newdesctop.jpg','wb')
+bytes=f1.read()
+f2.write(bytes)
+f1.close()
+f2.close()
