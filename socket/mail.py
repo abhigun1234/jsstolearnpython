@@ -19,7 +19,7 @@ try:
     s.starttls()
     s.ehlo()
     # Authentication
-    s.login("justolearnpune@gmail.com", "justo.007")
+    s.login("justolearnpune@gmail.com", "j7")
 
     # message to be sent
     message = "new enquiry genrated by user "
