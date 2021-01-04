@@ -40,15 +40,15 @@ print(myList, id(myList))
 
 
 
-# def printinfo( name, age ):
-#    "This prints a passed info into this function"
-#    print ("Name: ", name)
-#    print ("Age ", age)
-#    return;
-#
-# # # Now you can call printinfo function
-# printinfo( age=5, name="miki" )
-# # printinfo( name="raj" )
+def printinfo( name, age ):
+   "This prints a passed info into this function"
+   print ("Name: ", name)
+   print ("Age ", age)
+   return;
+
+# # Now you can call printinfo function
+printinfo( age=5, name="miki" )
+# printinfo( name="raj" )
  //*args
 # Function definition is here
 def printinfo( *vartuple ):
