@@ -1,0 +1,1 @@
+alert("hello guys welcome to the world of flask web")
