@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+   <script src="{% static 'hello.js' %}"></script>
 </head>
 <body>
-$END$
+
+<div class="container">
+<div>
+    one
+<button onclick="myFunction()">Click me</button>
+</div>
+<div>
+    two
+<button>cancel</button>
+</div>
+    </div>
 </body>
 </html>
